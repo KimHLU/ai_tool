@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "AI search for Akoraka",
+  "version": "0.1.0",
+  "description": "AI search for Akoraka",
+  "background":{"service_worker": "background.js"},
+  "action": {"default_popup": "popup.html"},
+  "permissions": [
+    "storage","activeTab","scripting"
+  ],
+  "host_permissions": ["https://learn.lincoln.ac.nz/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://learn.lincoln.ac.nz/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

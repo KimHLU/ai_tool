@@ -1,0 +1,153 @@
+﻿#,Setence,Intent
+1,I want to post the assessment brief.,Post assessment brief
+2,I need to upload the assignment details.,Post assessment brief
+3,Show me how to post the assignment brief.,Post assessment brief
+4,I want to create an assignment brief for students.,Post assessment brief
+5,Where can I upload the assessment information?,Post assessment brief
+6,Please guide me to post the assignment requirements.,Post assessment brief
+7,How can I publish the assignment guidelines?,Post assessment brief
+8,Could you tell me how to upload the assessment brief?,Post assessment brief
+9, I need to post the assignment summary.,Post assessment brief
+10,How can I publish the assessment overview?,Post assessment brief
+11,I want to create an assessment submission link.,Create assessment submission link
+12,I need to make a link for the assignment submission.,Create assessment submission link
+13,Please help me set up an assessment submission link.,Create assessment submission link
+14,How do I create the submission link for the assessment in my course?,Create assessment submission link
+15,Where can I set up the assignment submission link?,Create assessment submission link
+16,How can I add the link where students submit their work?,Create assessment submission link
+17,Help me add a submission link for the coursework.,Create assessment submission link
+18,I want to post the project brief.,Post assessment brief
+19,I need to upload the project details.,Post assessment brief
+20,Show me how to post the project brief.,Post assessment brief
+21,I want to create a project brief for students.,Post assessment brief
+22,Where can I upload the project information?,Post assessment brief
+23,Please guide me to post the project requirements.,Post assessment brief
+24,How can I publish the project guidelines?,Post assessment brief
+25,Could you tell me how to upload the project brief?,Post assessment brief
+26,I need to post the project summary.,Post assessment brief
+27,How can I publish the project overview?,Post assessment brief
+28,I want to post the report brief.,Post assessment brief
+29,I need to upload the report details.,Post assessment brief
+30,Show me how to post the report brief.,Post assessment brief
+31,I want to create a report brief for students.,Post assessment brief
+32,Where can I upload the report information?,Post assessment brief
+33,Please guide me to post the report requirements.,Post assessment brief
+34,How can I publish the report guidelines?,Post assessment brief
+35,Could you tell me how to upload the report brief?,Post assessment brief
+36,I need to post the report summary.,Post assessment brief
+37,How can I publish the report overview?,Post assessment brief
+38,I want to post the homework brief.,Post assessment brief
+39,I need to upload the homework details.,Post assessment brief
+40,Show me how to post the homework brief.,Post assessment brief
+41,I want to create a homework brief for students.,Post assessment brief
+42,Where can I upload the homework information?,Post assessment brief
+43,Please guide me to post the homework requirements.,Post assessment brief
+44,How can I publish the homework guidelines?,Post assessment brief
+45,Could you tell me how to upload the homework brief?,Post assessment brief
+46,I need to post the homework summary.,Post assessment brief
+47,How can I publish the homework overview?,Post assessment brief
+48,Please help me post a welcome note.,Post welcome information
+49,I would like to share the welcome announcement.,Post welcome information
+50,Can you show me how to put up a welcome message?,Post welcome information
+51,Where can I upload the welcome information for this class?,Post welcome information
+52,Please help me add a course opening note.,Post welcome information
+53,I want to share a greeting post.,Post welcome information
+54,I want to post welcome information.,Post welcome information
+55,I want to create a quiz.,Create a quiz
+56,I need to make a quiz for my course.,Create a quiz
+57,Please help me create a quiz.,Create a quiz
+58,I would like to set up a quiz for students.,Create a quiz
+59,Show me how to create a quiz.,Create a quiz
+60,Where can I create a quiz for students?,Create a quiz
+61,Please help me set up a practice test.,Create a quiz
+62,Could you tell me how to build a quiz?,Create a quiz
+63,I need to make a test for my course.,Create a test
+64,Please help me create a test.,Create a test
+65,Show me how to create a test.,Create a test
+66,How do I add a test to my course?,Create a test
+67,Where can I create a test for students?,Create a test
+68,Where do I go to set up a test?,Create a test
+69,I need to create an online exam.,Create a test
+70,I want to post exam information.,Post an exam info
+71,I need to publish the exam details.,Post an exam info
+72,Please help me post the exam info.,Post an exam info
+73,Show me how to post the exam schedule.,Post an exam info
+74,How do I add the exam information to my course?,Post an exam info
+75,Where can I upload the exam details for the class?,Post an exam info
+76,Please guide me to post the exam guidelines,Post an exam info
+77,Can you show me how to post exam information?,Post an exam info
+78,Could you tell me how to upload exam instructions?,Post an exam info
+79,I need to post the test details.,Post an exam info
+80,I want to share the final exam announcement.,Post an exam info
+81,I want to post field trip information.,Post field trip information
+82,I need to publish the field trip details.,Post field trip information
+83,Please help me post the field trip info.,Post field trip information
+84,Show me how to post the field trip schedule.,Post field trip information
+85,How do I add the field trip information to my course?,Post field trip information
+86,Where can I upload the field trip details for the class?,Post field trip information
+87,Please guide me to post the field trip guidelines.,Post field trip information
+88,How can I publish the field trip notice?,Post field trip information
+89,How do I share my course field trip announcement?,Post field trip information
+90,I want to share the outdoor activity announcement.,Post field trip information
+91,I want to upload lab information.,Upload lab/workshop/tutorial information
+92,I need to upload workshop details.,Upload lab/workshop/tutorial information
+93,Please help me upload tutorial information.,Upload lab/workshop/tutorial information
+94,I would like to share the lab schedule.,Upload lab/workshop/tutorial information
+95,Show me how to upload workshop content.,Upload lab/workshop/tutorial information
+96,How do I add the tutorial information to my course?,Upload lab/workshop/tutorial information
+97,I want to upload the lab timetable for students.,Upload lab/workshop/tutorial information
+98,Where can I post the workshop details for the class?,Upload lab/workshop/tutorial information
+99,Can you show me how to upload lab/workshop/tutorial information?,Upload lab/workshop/tutorial information
+100,How can I publish the lab and tutorial schedule?,Upload lab/workshop/tutorial information
+101,How do I share my tutorial instructions with students?,Upload lab/workshop/tutorial information
+102,Could you tell me how to upload the lab guidelines?,Upload lab/workshop/tutorial information
+103,I want to upload learning resources.,"Upload learning resources(content, activities, videos, etc)"
+104,Please help me upload learning activities.,"Upload learning resources(content, activities, videos, etc)"
+105,I would like to share course videos.,"Upload learning resources(content, activities, videos, etc)"
+106,Show me how to upload teaching materials.,"Upload learning resources(content, activities, videos, etc)"
+107,How do I add learning resources to my course?,"Upload learning resources(content, activities, videos, etc)"
+108,I want to upload the course activities and videos.,"Upload learning resources(content, activities, videos, etc)"
+109,Where can I post the learning content for students?,"Upload learning resources(content, activities, videos, etc)"
+110,Help me upload the training materials to the course page.,"Upload learning resources(content, activities, videos, etc)"
+111,Can you show me how to upload learning resources?,"Upload learning resources(content, activities, videos, etc)"
+112,I want to share some video for my course. ,"Upload learning resources(content, activities, videos, etc)"
+113,How can I publish the course documents?,"Upload learning resources(content, activities, videos, etc)"
+114,Where can I add the educational content for this class?,"Upload learning resources(content, activities, videos, etc)"
+115,I need to upload reading materials.,Upload reading resources(links or via Leganto)
+116,Please help me upload the reading list.,Upload reading resources(links or via Leganto)
+117,I would like to share the reading links.,Upload reading resources(links or via Leganto)
+118,Show me how to upload reading content.,Upload reading resources(links or via Leganto)
+119,Please guide me to upload the required readings.,Upload reading resources(links or via Leganto)
+120,Where can I post the reading list for students?,Upload reading resources(links or via Leganto)
+121,I want to upload the reading links.,Upload reading resources(links or via Leganto)
+122,Where do I upload the reading links?,Upload reading resources(links or via Leganto)
+123,How do I share my course reading materials?,Upload reading resources(links or via Leganto)
+124,I want to upload a class recording.,Upload class recording(via Panopto)
+125,I need to upload the lecture video.,Upload class recording(via Panopto)
+126,Please help me upload my class recording.,Upload class recording(via Panopto)
+127,I would like to share the lecture recording.,Upload class recording(via Panopto)
+128,Show me how to upload the class video.,Upload class recording(via Panopto)
+129,How do I add a class recording to my course?,Upload class recording(via Panopto)
+130,I want to upload the lecture video via Panopto.,Upload class recording(via Panopto)
+131,Where can I post the class recording for students?,Upload class recording(via Panopto)
+132,Where do I upload the lesson recording?,Upload class recording(via Panopto)
+133,How do I share my class video with students?,Upload class recording(via Panopto)
+134,I need to upload the lesson video.,Upload class recording(via Panopto)
+135,Please help me add the recorded lecture.,Upload class recording(via Panopto)
+136,I want to upload a Q&A discussion.,create Q&A/discussion
+137,I need to post a discussion topic.,create Q&A/discussion
+138,Please help me upload the Q&A content.,create Q&A/discussion
+139,I would like to share a discussion thread.,create Q&A/discussion
+140,Show me how to upload the question and answer forum.,create Q&A/discussion
+141,How do I add a Q&A discussion to my course?,create Q&A/discussion
+142,I want to upload a class discussion post.,create Q&A/discussion
+143,How do I share my course discussion forum?,create Q&A/discussion
+144,Could you tell me how to create a Q&A topic?,create Q&A/discussion
+145,I want to manage group membership.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+146,I need to assign students to groups.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+147,Please help me set up group membership.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+148,I would like to select a tutorial group.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+149,Show me how to manage group work membership.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+150,I want to create groups for a class project.,"Group membership(e.g. for group work, or selecting a tutorial session)"
+151,Where do I select the tutorial groups?,"Group membership(e.g. for group work, or selecting a tutorial session)"
+152,How do I add students to a group?,"Group membership(e.g. for group work, or selecting a tutorial session)"
