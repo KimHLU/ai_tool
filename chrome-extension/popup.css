@@ -1,3 +1,19 @@
+body {
+    width: 450px;
+    min-height:  420px;
+    margin: 0;
+    padding: 15px;
+    background-color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.popup-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: azure;
+}
+
 
 /* The switch - the box around the slider */
 .switch {

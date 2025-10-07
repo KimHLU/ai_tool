@@ -1,0 +1,78 @@
+:root{
+  --bg:#e7f6f5; --fg:#0b2530; --muted:#6b7a80; --card:#fff;
+  --accent:#0ea5e9; --dot:#9fb7bf;
+}
+
+html,body{height: 100%}
+body{
+    margin: 0;background: var(--bg);color: var(--fg);
+    font: 16px/1.45 system-ui,Segoe UI, Roboto, Helvetica, Arial, sans-serif}
+
+.ak-wrap{max-width: 820px;margin: 24px auto; padding:20px}
+.ak-title{font-size:20px; margin: 0 0 12px} 
+
+.ak-carousel{
+    position:relative; 
+    background:var(--card); 
+    border-radius:16px;
+    padding:16px; 
+    box-shadow:0 8px 28px rgba(0,0,0,.12)
+}
+
+/* Hide radio controls (used for slide state) */
+.ak-carousel > input[type=radio]{
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Slide area */
+.ak-slides{
+    position: relative;
+    height: min(62vh,520px);
+    overflow: hidden;
+    border-radius: 12px;
+    background: var(--bg);
+}
+
+/* Individual slide */
+.ak-slide{
+    position: absolute; inset: 0;
+    display: grid;grid-template-columns: 1 fr auto;
+    opacity: 0; transform: scale(.96);
+    transition: opacity .35s ease, transform .35s ease;
+    pointer-events: none;
+}
+.ak-caption b{font-weight: 600}
+
+/* buttons */
+.ak-nav{
+    position: absolute; top: 50%;
+    transform: translateY(-50%);
+    height: 40px; width: 40px; display: grid; place-items: center;
+    background: white; border-radius: 999px;
+    box-shadow: 0 6px 16px rgba(0,0,0,.18);
+    cursor:pointer;
+    user-select: none;
+}
+.ak-prev{left: 12px}
+.ak-next{right: 12px}
+.ak-nav:active{transform: translateY(-50%) scale(.96);}
+
+/* — Activate the Nth slide (supports up to 8 slides) — */
+.ak-carousel input[name=ak-step]:nth-of-type(1):checked ~ .ak-slides .ak-slide:nth-of-type(1),
+.ak-carousel input[name=ak-step]:nth-of-type(2):checked ~ .ak-slides .ak-slide:nth-of-type(2),
+.ak-carousel input[name=ak-step]:nth-of-type(3):checked ~ .ak-slides .ak-slide:nth-of-type(3),
+.ak-carousel input[name=ak-step]:nth-of-type(4):checked ~ .ak-slides .ak-slide:nth-of-type(4),
+.ak-carousel input[name=ak-step]:nth-of-type(5):checked ~ .ak-slides .ak-slide:nth-of-type(5),
+.ak-carousel input[name=ak-step]:nth-of-type(6):checked ~ .ak-slides .ak-slide:nth-of-type(6),
+.ak-carousel input[name=ak-step]:nth-of-type(7):checked ~ .ak-slides .ak-slide:nth-of-type(7),
+.ak-carousel input[name=ak-step]:nth-of-type(8):checked ~ .ak-slides .ak-slide:nth-of-type(8){
+  opacity:1; transform:scale(1); pointer-events:auto; z-index:1;
+}
+
+/* Responsive tweaks */
+@media (max-width:520px){
+  .ak-slides{height:64vh}
+  .ak-caption{font-size:14px}
+}
