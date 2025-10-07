@@ -8,7 +8,9 @@
   "permissions": [
     "storage","activeTab","scripting"
   ],
-  "host_permissions": ["https://learn.lincoln.ac.nz/*"],
+  "host_permissions": ["https://learn.lincoln.ac.nz/*",
+    "http://127.0.0.1:5000/*",
+    "http://localhost:5000/*"],
   "content_scripts": [
     {
       "matches": ["https://learn.lincoln.ac.nz/*"],
