@@ -1,11 +1,18 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 import joblib
+from pathlib import Path
 
 app = Flask(__name__)
 CORS(app)
 
+
+BASE_DIR = Path(__file__).resolve().parent
 model = joblib.load("gb_model.pkl")
+
+@app.route("/")
+def home():
+    return jsonify({"status": "ok"})
 
 @app.route('/predict',methods = ['POST'])
 def predict():
