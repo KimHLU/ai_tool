@@ -111,9 +111,22 @@ document.addEventListener("DOMContentLoaded", async () => {
             const data = await response.json();
 
             const intentText = data.prediction || "No prediction";
+
+            const PredictIntent = intentText.toLowerCase();
+
+            // == handle othe intents ==
+            if (PredictIntent === "Others") {
+              resultEl.innerHTML = `
+              <div class="alert alert-warning small"> 
+                 We cannot find the information you want from this website, please try again with other sentences!
+              </div>`;
+              statuEl.textContent = "Success";
+            statuEl.hidden = true;
+            return;
+            }
+
             const targetUrl = navigateToPage(intentText);
-
-
+            
             resultEl.innerHTML = `
               <div id="confirm-block" class="mb-2"> 
                 <div id="confirm-title" class="mb-2">Do you want to <strong>${intentText}?</strong></div>
@@ -124,8 +137,7 @@ document.addEventListener("DOMContentLoaded", async () => {
               </div>
             `;
             statuEl.textContent = "Success";
-            statuEl.hidden = false;
-
+            statuEl.hidden = true;
             // === link to page if confirm is yes ===
             document.getElementById("confirm-yes")?.addEventListener("click", async () => {
               if (!targetUrl) {
