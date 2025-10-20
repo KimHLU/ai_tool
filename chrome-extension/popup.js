@@ -111,6 +111,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             const data = await response.json();
 
             const intentText = data.prediction || "No prediction";
+<<<<<<< Updated upstream
+=======
+            const PredictIntent = intentText.toLowerCase();
+
+            // == handle othe intents ==
+            
+
+>>>>>>> Stashed changes
             const targetUrl = navigateToPage(intentText);
 
 
