@@ -8,7 +8,7 @@ CORS(app)
 
 
 BASE_DIR = Path(__file__).resolve().parent
-model = joblib.load("gb_model.pkl")
+model = joblib.load("gb_model_new.pkl")
 
 @app.route("/")
 def home():
