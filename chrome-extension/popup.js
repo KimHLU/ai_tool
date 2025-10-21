@@ -1,5 +1,7 @@
 const INTENT_TO_PAGE ={
-  "post assessment brief":"post_assessment.html"
+  "post assessment brief":"post_assessment.html",
+  "upload learning resources(content, activities, videos, etc)":"upload_resources.html",
+
 }
 
 function navigateToPage(intent) {
