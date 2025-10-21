@@ -111,11 +111,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const data = await response.json();
 
             const intentText = data.prediction || "No prediction";
-
             const PredictIntent = intentText.toLowerCase();
 
             // == handle othe intents ==
-            if (PredictIntent === "Others") {
+            if (PredictIntent === "others") {
               resultEl.innerHTML = `
               <div class="alert alert-warning small"> 
                  We cannot find the information you want from this website, please try again with other sentences!
